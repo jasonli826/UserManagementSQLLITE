@@ -1,0 +1,1 @@
+﻿Install-Package System.Data.SQLite -Version 1.0.116

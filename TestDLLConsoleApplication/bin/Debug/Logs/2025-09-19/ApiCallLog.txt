@@ -1,0 +1,1957 @@
+11:51:09 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:51:09 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:51:09 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method Username=system Password=getech
+11:51:09 | API: UseraAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\user.db
+11:51:10 | API: UseraAuthentication | Message: Starting To Access Dataabase
+11:51:10 | API: UseraAuthentication | Message: Starting To Access User_tbl table
+11:51:10 | API: UseraAuthentication | Message: Get Exception Message:SQL logic error
+no such table: User_tbl
+11:51:10 | API: UseraAuthentication | Message: Receive Auenthication API MessageLogin failed: SQL logic error
+no such table: User_tbl
+11:52:12 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:52:12 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:52:16 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method Username=system Password=getech
+11:52:20 | API: UseraAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\user.db
+11:53:06 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:53:06 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:53:08 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method Username=system Password=getech
+11:53:15 | API: UseraAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\router.db
+11:53:17 | API: UseraAuthentication | Message: Starting To Access Dataabase
+11:53:19 | API: UseraAuthentication | Message: Starting To Access User_tbl table
+11:53:20 | API: UseraAuthentication | Message: User account is inactive.
+11:53:20 | API: UseraAuthentication | Message: Receive Auenthication API MessageUser account is inactive.
+11:53:56 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:53:56 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:53:58 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method Username=system Password=getech
+11:54:00 | API: UseraAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\router.db
+11:54:01 | API: UseraAuthentication | Message: Starting To Access Dataabase
+11:54:03 | API: UseraAuthentication | Message: Starting To Access User_tbl table
+11:54:25 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:54:25 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:54:26 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method Username=system Password=getech
+11:54:26 | API: UseraAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\router.db
+11:54:26 | API: UseraAuthentication | Message: Starting To Access Dataabase
+11:54:26 | API: UseraAuthentication | Message: Starting To Access User_tbl table
+11:54:26 | API: UseraAuthentication | Message: Starting To Access UserRole table
+11:54:26 | API: UseraAuthentication | Message: GetRolds And RoleIds=1
+11:54:26 | API: UseraAuthentication | Message: Get MenuList And Starting to convert to xml string
+11:54:26 | API: UseraAuthentication | Message: MenuList:<Menus>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Run Product</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Edit Product</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Load Product</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>New Product</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Save As Product</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Edit Tool Info</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Tool Life</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Tool Life Statistic</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Vacuum Filter Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>IO Utility</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Home Machine</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Robot MotionUtility</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Display Alarm File</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Spindle Offset</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Barcode Offset</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Setting</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Camera Setting</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Barcode Setting</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Toolbit Station</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Gripper Fingers</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Points</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Software Limits</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Old Robot Range</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Working Range</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Robot Working Range</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Calibration</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Calibration</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Tool Station</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Tool Station</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>System Option</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Motor Calibration</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot IO Utility</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Video Setup</Child_Menu>
+    <Sno>13</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Password Maintenance</Child_Menu>
+    <Sno>14</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Input Barcode ComPort</Child_Menu>
+    <Sno>15</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Machine Activation</Child_Menu>
+    <Sno>16</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Languages Selection</Child_Menu>
+    <Sno>17</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Spindle Inverter ComPort</Child_Menu>
+    <Sno>18</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Server Connection</Child_Menu>
+    <Sno>19</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus Motion Com Port</Child_Menu>
+    <Sno>20</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus IO Com Port</Child_Menu>
+    <Sno>21</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Calibration</Child_Menu>
+    <Sno>22</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Jaws Station</Child_Menu>
+    <Sno>23</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Barcode Com Port</Child_Menu>
+    <Sno>24</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Table Working Range</Child_Menu>
+    <Sno>25</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Working Range</Child_Menu>
+    <Sno>26</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Reference</Child_Menu>
+    <Sno>27</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Reference</Child_Menu>
+    <Sno>28</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Reference</Child_Menu>
+    <Sno>29</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Working Range</Child_Menu>
+    <Sno>30</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Working Range</Child_Menu>
+    <Sno>31</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 0 Data</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 1 Data</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 2 Data</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 3 Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 4 Data</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 5 Data</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 6 Data</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 7 Data</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Galil Terminal</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>System Configuration</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Edit Modbus Parameters</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Show Modbus Motion Test</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+</Menus>
+11:54:26 | API: UseraAuthentication | Message: Receive Auenthication API Message<Menus>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Run Product</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Edit Product</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Load Product</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>New Product</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Save As Product</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Edit Tool Info</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Tool Life</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Tool Life Statistic</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Vacuum Filter Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>IO Utility</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Home Machine</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Robot MotionUtility</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Display Alarm File</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Spindle Offset</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Barcode Offset</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Setting</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Camera Setting</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Barcode Setting</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Toolbit Station</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Gripper Fingers</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Points</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Software Limits</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Old Robot Range</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Working Range</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Robot Working Range</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Calibration</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Calibration</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Tool Station</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Tool Station</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>System Option</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Motor Calibration</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot IO Utility</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Video Setup</Child_Menu>
+    <Sno>13</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Password Maintenance</Child_Menu>
+    <Sno>14</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Input Barcode ComPort</Child_Menu>
+    <Sno>15</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Machine Activation</Child_Menu>
+    <Sno>16</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Languages Selection</Child_Menu>
+    <Sno>17</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Spindle Inverter ComPort</Child_Menu>
+    <Sno>18</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Server Connection</Child_Menu>
+    <Sno>19</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus Motion Com Port</Child_Menu>
+    <Sno>20</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus IO Com Port</Child_Menu>
+    <Sno>21</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Calibration</Child_Menu>
+    <Sno>22</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Jaws Station</Child_Menu>
+    <Sno>23</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Barcode Com Port</Child_Menu>
+    <Sno>24</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Table Working Range</Child_Menu>
+    <Sno>25</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Working Range</Child_Menu>
+    <Sno>26</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Reference</Child_Menu>
+    <Sno>27</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Reference</Child_Menu>
+    <Sno>28</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Reference</Child_Menu>
+    <Sno>29</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Working Range</Child_Menu>
+    <Sno>30</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Working Range</Child_Menu>
+    <Sno>31</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 0 Data</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 1 Data</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 2 Data</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 3 Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 4 Data</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 5 Data</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 6 Data</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 7 Data</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Galil Terminal</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>System Configuration</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Edit Modbus Parameters</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Show Modbus Motion Test</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+</Menus>
+11:57:06 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:57:06 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:57:07 | API: UserAuthentication | Message: Starting To Call UserRepository Login Method Username=system Password=getech
+11:57:07 | API: UserAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\router.db
+11:57:07 | API: UserAuthentication | Message: Starting To Access Database
+11:57:07 | API: UserAuthentication | Message: Starting To Access User_tbl table
+11:57:07 | API: UserAuthentication | Message: Starting To Access UserRole table
+11:57:07 | API: UserAuthentication | Message: GetRoles And RoleIds=1
+11:57:07 | API: UserAuthentication | Message: Get MenuList And Starting to convert to xml string
+11:57:07 | API: UserAuthentication | Message: MenuList:<Menus>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Run Product</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Edit Product</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Load Product</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>New Product</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Save As Product</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Edit Tool Info</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Tool Life</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Tool Life Statistic</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Vacuum Filter Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>IO Utility</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Home Machine</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Robot MotionUtility</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Display Alarm File</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Spindle Offset</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Barcode Offset</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Setting</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Camera Setting</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Barcode Setting</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Toolbit Station</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Gripper Fingers</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Points</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Software Limits</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Old Robot Range</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Working Range</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Robot Working Range</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Calibration</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Calibration</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Tool Station</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Tool Station</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>System Option</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Motor Calibration</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot IO Utility</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Video Setup</Child_Menu>
+    <Sno>13</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Password Maintenance</Child_Menu>
+    <Sno>14</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Input Barcode ComPort</Child_Menu>
+    <Sno>15</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Machine Activation</Child_Menu>
+    <Sno>16</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Languages Selection</Child_Menu>
+    <Sno>17</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Spindle Inverter ComPort</Child_Menu>
+    <Sno>18</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Server Connection</Child_Menu>
+    <Sno>19</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus Motion Com Port</Child_Menu>
+    <Sno>20</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus IO Com Port</Child_Menu>
+    <Sno>21</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Calibration</Child_Menu>
+    <Sno>22</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Jaws Station</Child_Menu>
+    <Sno>23</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Barcode Com Port</Child_Menu>
+    <Sno>24</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Table Working Range</Child_Menu>
+    <Sno>25</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Working Range</Child_Menu>
+    <Sno>26</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Reference</Child_Menu>
+    <Sno>27</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Reference</Child_Menu>
+    <Sno>28</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Reference</Child_Menu>
+    <Sno>29</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Working Range</Child_Menu>
+    <Sno>30</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Working Range</Child_Menu>
+    <Sno>31</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 0 Data</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 1 Data</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 2 Data</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 3 Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 4 Data</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 5 Data</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 6 Data</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 7 Data</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Galil Terminal</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>System Configuration</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Edit Modbus Parameters</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Show Modbus Motion Test</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+</Menus>
+11:57:07 | API: UseraAuthentication | Message: Receive Auenthication API Message<Menus>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Run Product</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Edit Product</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Load Product</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>New Product</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Save As Product</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Edit Tool Info</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Tool Life</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Tool Life Statistic</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Vacuum Filter Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>IO Utility</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Home Machine</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Robot MotionUtility</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Display Alarm File</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Spindle Offset</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Barcode Offset</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Setting</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Camera Setting</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Barcode Setting</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Toolbit Station</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Gripper Fingers</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Points</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Software Limits</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Old Robot Range</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Working Range</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Robot Working Range</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Calibration</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Calibration</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Tool Station</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Tool Station</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>System Option</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Motor Calibration</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot IO Utility</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Video Setup</Child_Menu>
+    <Sno>13</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Password Maintenance</Child_Menu>
+    <Sno>14</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Input Barcode ComPort</Child_Menu>
+    <Sno>15</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Machine Activation</Child_Menu>
+    <Sno>16</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Languages Selection</Child_Menu>
+    <Sno>17</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Spindle Inverter ComPort</Child_Menu>
+    <Sno>18</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Server Connection</Child_Menu>
+    <Sno>19</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus Motion Com Port</Child_Menu>
+    <Sno>20</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus IO Com Port</Child_Menu>
+    <Sno>21</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Calibration</Child_Menu>
+    <Sno>22</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Jaws Station</Child_Menu>
+    <Sno>23</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Barcode Com Port</Child_Menu>
+    <Sno>24</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Table Working Range</Child_Menu>
+    <Sno>25</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Working Range</Child_Menu>
+    <Sno>26</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Reference</Child_Menu>
+    <Sno>27</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Reference</Child_Menu>
+    <Sno>28</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Reference</Child_Menu>
+    <Sno>29</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Working Range</Child_Menu>
+    <Sno>30</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Working Range</Child_Menu>
+    <Sno>31</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 0 Data</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 1 Data</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 2 Data</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 3 Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 4 Data</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 5 Data</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 6 Data</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 7 Data</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Galil Terminal</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>System Configuration</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Edit Modbus Parameters</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Show Modbus Motion Test</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+</Menus>
+11:57:37 | API: UseraAuthentication | Message: Calling UseraAuthentication API
+11:57:37 | API: UseraAuthentication | Message: Starting To Call UserRepository Login Method
+11:57:37 | API: UserAuthentication | Message: Starting To Call UserRepository Login Method Username=guoqing Password=getech
+11:57:37 | API: UserAuthentication | Message: Data Source=D:\Project\Projects\MachineGUI\SQLLiteUserManagement\SQLLiteDB\router.db
+11:57:38 | API: UserAuthentication | Message: Starting To Access Database
+11:57:38 | API: UserAuthentication | Message: Starting To Access User_tbl table
+11:57:38 | API: UserAuthentication | Message: Starting To Access UserRole table
+11:57:38 | API: UserAuthentication | Message: GetRoles And RoleIds=2,3
+11:57:38 | API: UserAuthentication | Message: Get MenuList And Starting to convert to xml string
+11:57:38 | API: UserAuthentication | Message: MenuList:<Menus>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Run Product</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Edit Product</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Load Product</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>New Product</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Save As Product</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Edit Tool Info</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Tool Life</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Tool Life Statistic</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Vacuum Filter Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>IO Utility</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Home Machine</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Robot MotionUtility</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Display Alarm File</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Spindle Offset</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Barcode Offset</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Setting</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Camera Setting</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Barcode Setting</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Toolbit Station</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Gripper Fingers</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Points</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Software Limits</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Old Robot Range</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Working Range</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Robot Working Range</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Calibration</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Calibration</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Tool Station</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Tool Station</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>System Option</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Motor Calibration</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot IO Utility</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Video Setup</Child_Menu>
+    <Sno>13</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Password Maintenance</Child_Menu>
+    <Sno>14</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Input Barcode ComPort</Child_Menu>
+    <Sno>15</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Machine Activation</Child_Menu>
+    <Sno>16</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Languages Selection</Child_Menu>
+    <Sno>17</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Spindle Inverter ComPort</Child_Menu>
+    <Sno>18</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Server Connection</Child_Menu>
+    <Sno>19</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus Motion Com Port</Child_Menu>
+    <Sno>20</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus IO Com Port</Child_Menu>
+    <Sno>21</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Calibration</Child_Menu>
+    <Sno>22</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Jaws Station</Child_Menu>
+    <Sno>23</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Barcode Com Port</Child_Menu>
+    <Sno>24</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Table Working Range</Child_Menu>
+    <Sno>25</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Working Range</Child_Menu>
+    <Sno>26</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Reference</Child_Menu>
+    <Sno>27</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Reference</Child_Menu>
+    <Sno>28</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Reference</Child_Menu>
+    <Sno>29</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Working Range</Child_Menu>
+    <Sno>30</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Working Range</Child_Menu>
+    <Sno>31</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 0 Data</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 1 Data</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 2 Data</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 3 Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 4 Data</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 5 Data</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 6 Data</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 7 Data</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Galil Terminal</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>System Configuration</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Edit Modbus Parameters</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Show Modbus Motion Test</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+</Menus>
+11:57:38 | API: UseraAuthentication | Message: Receive Auenthication API Message<Menus>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Run Product</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Edit Product</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Load Product</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>New Product</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Product</Parent_Menu>
+    <Child_Menu>Save As Product</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Edit Tool Info</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Tool Life</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Tool Life Statistic</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Tool</Parent_Menu>
+    <Child_Menu>Reset Vacuum Filter Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>IO Utility</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Home Machine</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Robot MotionUtility</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Display Alarm File</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Spindle Offset</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Barcode Offset</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Camera Setting</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Camera Setting</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Utility</Parent_Menu>
+    <Child_Menu>Gripper Barcode Setting</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Toolbit Station</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Library</Parent_Menu>
+    <Child_Menu>Gripper Fingers</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Points</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Software Limits</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Old Robot Range</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot Working Range</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Robot Working Range</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Calibration</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Calibration</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Table Tool Station</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Right Table Tool Station</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>System Option</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Motor Calibration</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Robot IO Utility</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Video Setup</Child_Menu>
+    <Sno>13</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Password Maintenance</Child_Menu>
+    <Sno>14</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Input Barcode ComPort</Child_Menu>
+    <Sno>15</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Machine Activation</Child_Menu>
+    <Sno>16</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Languages Selection</Child_Menu>
+    <Sno>17</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Spindle Inverter ComPort</Child_Menu>
+    <Sno>18</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Server Connection</Child_Menu>
+    <Sno>19</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus Motion Com Port</Child_Menu>
+    <Sno>20</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Modbus IO Com Port</Child_Menu>
+    <Sno>21</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Calibration</Child_Menu>
+    <Sno>22</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Jaws Station</Child_Menu>
+    <Sno>23</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Barcode Com Port</Child_Menu>
+    <Sno>24</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Gripper Table Working Range</Child_Menu>
+    <Sno>25</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Working Range</Child_Menu>
+    <Sno>26</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Dust Blow Reference</Child_Menu>
+    <Sno>27</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Reference</Child_Menu>
+    <Sno>28</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Reference</Child_Menu>
+    <Sno>29</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output1 Working Range</Child_Menu>
+    <Sno>30</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>Service</Parent_Menu>
+    <Child_Menu>Output2 Working Range</Child_Menu>
+    <Sno>31</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 0 Data</Child_Menu>
+    <Sno>1</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 1 Data</Child_Menu>
+    <Sno>2</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 2 Data</Child_Menu>
+    <Sno>3</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 3 Data</Child_Menu>
+    <Sno>4</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 4 Data</Child_Menu>
+    <Sno>5</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 5 Data</Child_Menu>
+    <Sno>6</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 6 Data</Child_Menu>
+    <Sno>7</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Axis 7 Data</Child_Menu>
+    <Sno>8</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Galil Terminal</Child_Menu>
+    <Sno>9</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>System Configuration</Child_Menu>
+    <Sno>10</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Edit Modbus Parameters</Child_Menu>
+    <Sno>11</Sno>
+  </Menu>
+  <Menu>
+    <Parent_Menu>System</Parent_Menu>
+    <Child_Menu>Show Modbus Motion Test</Child_Menu>
+    <Sno>12</Sno>
+  </Menu>
+</Menus>

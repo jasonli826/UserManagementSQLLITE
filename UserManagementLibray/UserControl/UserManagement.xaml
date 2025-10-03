@@ -1,0 +1,157 @@
+﻿<UserControl x:Class="UserManagementlibrary.UserManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="White">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControlStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Text="👤 User Management"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Foreground="#2D6FD2"
+                   Margin="0,0,0,8"/>
+
+        <!-- User Form -->
+        <Border Grid.Row="1" Background="White" CornerRadius="6" Padding="12" Margin="0,0,0,8">
+            <Border.Effect>
+                <DropShadowEffect Color="Gray" BlurRadius="6" ShadowDepth="1" Opacity="0.2"/>
+            </Border.Effect>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Row 0: UserID + EmpID -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Row 1: UserName + Password -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Row 2: Domain + Status -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Row 3: Role + Remarks -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Row 4: Buttons -->
+                </Grid.RowDefinitions>
+
+                <!-- Row 0: User ID + Employee No -->
+                <TextBlock Text="User ID:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtUserId" Grid.Row="0" Grid.Column="1" MaxLength="20" Height="33"/>
+                <TextBlock Text="Employee No:" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <TextBox x:Name="txtEmpId" Grid.Row="0" Grid.Column="3" MaxLength="20" Height="33"/>
+
+                <!-- Row 1: User Name + Password -->
+                <TextBlock Text="User Name:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtUserName" Grid.Row="1" Grid.Column="1" MaxLength="100" Height="33"/>
+
+                <TextBlock Text="Password:" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <Grid Grid.Row="1" Grid.Column="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- PasswordBox & TextBox -->
+                    <Grid Grid.Column="0" VerticalAlignment="Top">
+                        <PasswordBox x:Name="txtPassword" Height="34" VerticalAlignment="Top"/>
+                        <TextBox x:Name="unmaskedPasswordTextBox" Visibility="Collapsed" Height="34" VerticalAlignment="Top"/>
+                    </Grid>
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="6,0,0,0">
+                        <CheckBox x:Name="showPasswordCheckBox"
+                                  Content="Show"
+                                  Checked="ShowPassword_Checked"
+                                  Unchecked="ShowPassword_Unchecked"
+                                  VerticalAlignment="Center"/>
+                        <Button Content="Auto" x:Name="btnAutoPassword" Click="BtnAutoPassword_Click" Width="60" Margin="6,0,0,0"/>
+                        <Button Content="Reset" x:Name="BtnRestPassword" Click="BtnResetPassword_Click" Width="60" Margin="6,0,0,0" Visibility="Collapsed"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Row 2: Domain + Status -->
+                <TextBlock Text="Domain:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+                <ComboBox x:Name="cmbDomain" Grid.Row="2" Grid.Column="1" Height="26" VerticalContentAlignment="Center" DisplayMemberPath="DomainName" SelectedValuePath="DomainID"/>
+
+                <TextBlock Text="Status:" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <StackPanel Grid.Row="2" Grid.Column="3" Orientation="Horizontal" VerticalAlignment="Center">
+                    <RadioButton x:Name="rbActive" Content="Active" IsChecked="True" GroupName="UserStatus" Margin="0,0,10,0"/>
+                    <RadioButton x:Name="rbInactive" Content="Inactive" GroupName="UserStatus"/>
+                </StackPanel>
+
+                <!-- Row 3: Role + Remarks -->
+                <TextBlock Text="Role:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Top" Margin="0,5,5,5"/>
+                <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="0,5,5,5">
+                    <ListBox Width="140" Height="110" x:Name="RoleDataList" DisplayMemberPath="Role_Name" SelectedValue="RoleID" FontSize="12"/>
+                    <StackPanel Margin="5,0">
+                        <Button Content="➜" Width="30" Click="BtnMoveRight_Click" Margin="5,5,5,5"/>
+                        <Button Content="⬅" Width="30" Click="BtnMoveLeft_Click" Margin="5,5,5,5"/>
+                    </StackPanel>
+                    <ListBox Width="140" Height="110" x:Name="SelectedRoleDataList" DisplayMemberPath="Role_Name" SelectedValue="RoleID" FontSize="12"/>
+                </StackPanel>
+
+                <TextBlock Text="Remarks:" Grid.Row="3" Grid.Column="2" VerticalAlignment="Top" Margin="10,0,0,0"/>
+                <TextBox Grid.Row="3" Grid.Column="3" Height="110" TextWrapping="Wrap" AcceptsReturn="True" VerticalContentAlignment="Top" x:Name="txtRemarks"/>
+
+                <!-- Row 4: Buttons -->
+                <StackPanel Grid.Row="4" Grid.ColumnSpan="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,8,0,0">
+                    <Button Content="Search" Click="btnSearch_Click" Width="100" Height="28"/>
+                    <Button Content="Clear" Click="btnClear_Click" Width="100" Height="28"/>
+                    <Button Content="Save" Click="SaveButton_Click" x:Name="btnSave" Width="100" Height="28"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- DataGrid -->
+        <Border Grid.Row="2" Background="White" CornerRadius="6" Padding="6">
+            <Border.Effect>
+                <DropShadowEffect Color="Gray" BlurRadius="6" ShadowDepth="1" Opacity="0.2"/>
+            </Border.Effect>
+            <DataGrid AutoGenerateColumns="False" x:Name="UserDataGrid" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" FontSize="14" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}" CellStyle="{StaticResource DataGridCellStyle}">
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Header="Edit" Width="50">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Click="EditButton_Click" Padding="0" BorderThickness="0" Background="Transparent">
+                                    <Image Source="../Image/Edit.png" Width="20" Height="20"/>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Collapsed"/>
+                    <DataGridTextColumn Header="User ID" Binding="{Binding UserId}" Width="80"/>
+                    <DataGridTextColumn Header="Employee No" Binding="{Binding Empid}"/>
+                    <DataGridTextColumn Header="User Name" Binding="{Binding UserName}" Width="120"/>
+                    <DataGridTextColumn Header="Domain" Binding="{Binding DomainName}" Width="160"/>
+                    <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                    <DataGridTemplateColumn Header="Remarks" Width="260">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Remarks}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Created By" Binding="{Binding Created_by}"/>
+                    <DataGridTextColumn Header="Created Date" Binding="{Binding Created_Date, StringFormat=dd MMM yyyy HH:mm:ss}"/>
+                    <DataGridTextColumn Header="Updated By" Binding="{Binding Updated_by}"/>
+                    <DataGridTextColumn Header="Updated Date" Binding="{Binding Updated_Date, StringFormat=dd MMM yyyy HH:mm:ss}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+    </Grid>
+</UserControl>

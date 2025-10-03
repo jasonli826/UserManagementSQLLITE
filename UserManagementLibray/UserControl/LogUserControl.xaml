@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="UserManagementLibray.LogUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#f4f7f9">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/UserControlStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- MES Logs -->
+        <TextBlock Grid.Row="0" Text="MES LOGS" Style="{StaticResource LogTitleStyle}"/>
+        <TextBox Grid.Row="1" Name="MesLogTextBox" Style="{StaticResource LogTextBoxStyle}" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True"/>
+
+        <!-- Runtime Logs -->
+        <TextBlock Grid.Row="2" Text="Run Time Logs" Style="{StaticResource LogTitleStyle}"/>
+        <TextBox Grid.Row="3" Name="RuntimeLogTextBox" Style="{StaticResource LogTextBoxStyle}" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True"/>
+    </Grid>
+</UserControl>

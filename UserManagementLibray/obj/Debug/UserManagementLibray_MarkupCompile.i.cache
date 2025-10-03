@@ -1,0 +1,20 @@
+﻿UserManagementLibray
+
+
+library
+C#
+.cs
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementLibray\obj\Debug\
+UserManagementLibray
+none
+false
+DEBUG;TRACE
+
+12364017183
+
+46-574793383
+27-1389861743
+UserControl\Alarm.xaml;UserControl\AuditLog.xaml;UserControl\ChangePassword.xaml;UserControl\DataAnalytics.xaml;UserControl\DomainUserControl.xaml;UserControl\LogUserControl.xaml;UserControl\RoleAdministration.xaml;UserControl\RoleManagement.xaml;Style\UserControlStyles.xaml;UserControl\RoleSequenceControl.xaml;UserControl\UserManagement.xaml;Form\PopupWindow.xaml;
+
+False
+

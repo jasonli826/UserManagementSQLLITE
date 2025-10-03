@@ -1,0 +1,15 @@
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\TestDLLConsoleApplication.exe.config
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\TestDLLConsoleApplication.exe
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\TestDLLConsoleApplication.pdb
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\UserManagementLibray.dll
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\System.Data.SQLite.dll
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\EntityFramework.dll
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\UserManagementLibray.pdb
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\UserManagementLibray.dll.config
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\System.Data.SQLite.xml
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\bin\Release\EntityFramework.xml
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\obj\Release\TestDLLConsoleApplication.csproj.AssemblyReference.cache
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\obj\Release\TestDLLConsoleApplication.csproj.CoreCompileInputs.cache
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\obj\Release\TestDLLC.32E9454B.Up2Date
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\obj\Release\TestDLLConsoleApplication.exe
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\TestDLLConsoleApplication\obj\Release\TestDLLConsoleApplication.pdb
