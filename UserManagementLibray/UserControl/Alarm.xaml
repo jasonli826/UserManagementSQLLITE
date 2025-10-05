@@ -4,6 +4,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d"
              Background="#F3F6FB">
 
@@ -53,12 +54,12 @@
                         <StackPanel Orientation="Horizontal">
                             <StackPanel Width="150">
                                 <TextBlock Text="Start Date" VerticalAlignment="Center" Foreground="{StaticResource PrimaryColor}" FontWeight="Bold" />
-                                <DatePicker x:Name="dpStartDate" SelectedDateFormat="Short"/>
+                                <DatePicker x:Name="dpStartDate" SelectedDateFormat="Short" DisplayDateEnd="{x:Static sys:DateTime.Today}"/>
                             </StackPanel>
 
                             <StackPanel Width="150" Margin="20,0,0,0">
                                 <TextBlock Text="End Date" VerticalAlignment="Center" Foreground="{StaticResource PrimaryColor}" FontWeight="Bold" />
-                                <DatePicker x:Name="dpEndDate" SelectedDateFormat="Short"/>
+                                <DatePicker x:Name="dpEndDate" SelectedDateFormat="Short" DisplayDateEnd="{x:Static sys:DateTime.Today}"/>
                             </StackPanel>
 
                             <StackPanel Margin="30,0,0,0">
@@ -119,12 +120,12 @@
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,15" Grid.Row="1">
                         <StackPanel Width="150">
                             <TextBlock Text="Start Date" VerticalAlignment="Center" Foreground="{StaticResource PrimaryColor}" FontWeight="Bold" />
-                            <DatePicker x:Name="dpPieStartDate" SelectedDateFormat="Short"/>
+                            <DatePicker x:Name="dpPieStartDate" SelectedDateFormat="Short" DisplayDateEnd="{x:Static sys:DateTime.Today}"/>
                         </StackPanel>
 
                         <StackPanel Width="150" Margin="20,0,0,0">
                             <TextBlock Text="End Date" VerticalAlignment="Center" Foreground="{StaticResource PrimaryColor}" FontWeight="Bold" />
-                            <DatePicker x:Name="dpPieEndDate" SelectedDateFormat="Short"/>
+                            <DatePicker x:Name="dpPieEndDate" SelectedDateFormat="Short" DisplayDateEnd="{x:Static sys:DateTime.Today}"/>
                         </StackPanel>
 
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20,0,0,0">

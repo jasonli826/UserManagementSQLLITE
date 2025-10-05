@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:UserManagementLibray"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d"
              Background="#F3F6FB"
              Loaded="UserControl_Loaded">
@@ -67,12 +68,12 @@
                             <!-- Start Date -->
                             <StackPanel Width="220" Margin="0 0 10 0">
                                 <TextBlock Text="Start Date" FontWeight="Bold" FontSize="18"/>
-                                <xctk:DateTimePicker Name="dpPanelStartDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18"/>
+                                <xctk:DateTimePicker Name="dpPanelStartDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18"  Maximum="{x:Static sys:DateTime.Now}" />
                             </StackPanel>
                             <!-- End Date -->
                             <StackPanel Width="220" Margin="0 0 10 0">
                                 <TextBlock Text="End Date" FontWeight="Bold"  FontSize="18"/>
-                                <xctk:DateTimePicker Name="dpPanelEndDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18"/>
+                                <xctk:DateTimePicker Name="dpPanelEndDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18"  Maximum="{x:Static sys:DateTime.Now}"/>
                             </StackPanel>
                             <!-- Hourly/Daily -->
                             <StackPanel Width="150" Margin="10,0,10,0">
@@ -121,11 +122,11 @@
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                             <StackPanel Width="220" Margin="0 0 10 0">
                                 <TextBlock Text="Start Date" FontWeight="Bold"/>
-                                <xctk:DateTimePicker Name="dpUPHStartDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False"  FontSize="18"/>
+                                <xctk:DateTimePicker Name="dpUPHStartDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False"  FontSize="18" Maximum="{x:Static sys:DateTime.Now}"/>
                             </StackPanel>
                             <StackPanel Width="220" Margin="0 0 10 0">
                                 <TextBlock Text="End Date" FontWeight="Bold"/>
-                                <xctk:DateTimePicker Name="dpUPHEndDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False"  FontSize="18"/>
+                                <xctk:DateTimePicker Name="dpUPHEndDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False"  FontSize="18" Maximum="{x:Static sys:DateTime.Now}"/>
                             </StackPanel>
                             <StackPanel Width="150" Margin="10,0,10,0">
                                 <TextBlock Text="View Mode" FontWeight="Bold" Margin="0 0 0 5"  FontSize="18"/>
@@ -176,11 +177,11 @@
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                             <StackPanel Width="220" Margin="0 0 10 0">
                                 <TextBlock Text="Start Date" FontWeight="Bold" FontSize="18"/>
-                                <xctk:DateTimePicker Name="dpAlarmStartDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18"/>
+                                <xctk:DateTimePicker Name="dpAlarmStartDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18" Maximum="{x:Static sys:DateTime.Now}"/>
                             </StackPanel>
                             <StackPanel Width="220" Margin="0 0 10 0">
                                 <TextBlock Text="End Date" FontWeight="Bold" FontSize="18"/>
-                                <xctk:DateTimePicker Name="dpAlarmEndDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18"/>
+                                <xctk:DateTimePicker Name="dpAlarmEndDate" Format="Custom" FormatString="dd MMM yyyy HH:mm" AllowTextInput="False" FontSize="18" Maximum="{x:Static sys:DateTime.Now}"/>
                             </StackPanel>
                             <StackPanel Width="150" Margin="10,0,10,0">
                                 <TextBlock Text="View Mode" FontWeight="Bold" Margin="0 0 0 5" FontSize="18"/>

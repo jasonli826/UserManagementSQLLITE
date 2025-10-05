@@ -57,10 +57,11 @@ namespace UserManagementlibrary
 
                 // Filter roles based on current user's role
                 string currentUserRole = SessionContext.UserRole; // Assume this is stored at login
-                List<Role> filteredRoles = FilterRolesByUserRole(currentUserRole, allRolesFromRepo);
+                List<Role> filteredRoles = UserRepository.FilterRolesByUserRole(currentUserRole, allRolesFromRepo);
 
                 allRoles = new ObservableCollection<Role>(filteredRoles);
-                RoleDataList.ItemsSource = allRoles;
+                if(allRoles.Count>0)
+                RoleDataList.ItemsSource = allRoles.Where(x=>x.Status.ToUpper()=="ACTIVE");
 
                 selectedRoles = new ObservableCollection<Role>();
                 SelectedRoleDataList.ItemsSource = selectedRoles;
@@ -161,127 +162,11 @@ namespace UserManagementlibrary
         //            return new List<Role>();
         //    }
         //}
-        // 假设 Role 定义至少包含:
         // public int RoleID;
         // public string Role_Name;
         // public int? ParentRoleID;
         // public int PriorityIndex;
         // public string Status;
-
-        private List<Role> FilterRolesByUserRole(string userRole, List<Role> allRoles)
-        {
-            if (string.IsNullOrWhiteSpace(userRole) || allRoles == null || allRoles.Count == 0)
-                return new List<Role>();
-
-            // 1) 把用户可能拥有的角色名规范化为小写集合
-            var userRoleNames = userRole
-                .Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(x => x.Trim().ToLower())
-                .ToHashSet();
-
-            if (!userRoleNames.Any())
-                return new List<Role>();
-
-            // 2) 构建按 ID 的字典，便于上溯查 root
-            var byId = allRoles.ToDictionary(r => r.RoleID);
-
-            // 3) 根据 RoleID 缓存 root 计算（避免重复遍历）
-            var rootCache = new Dictionary<int, Role>();
-
-            Role GetRoot(Role r)
-            {
-                if (r == null) return null;
-                if (rootCache.TryGetValue(r.RoleID, out var cached)) return cached;
-
-                var cur = r;
-                // 上溯直到 ParentRoleID 为 null 或找不到父
-                while (cur.ParentRoleID.HasValue && byId.TryGetValue(cur.ParentRoleID.Value, out var parent))
-                {
-                    cur = parent;
-                }
-
-                rootCache[r.RoleID] = cur;
-                return cur;
-            }
-
-            // 4) 找到用户在 DB 中对应的角色对象
-            var userRoles = allRoles
-                .Where(r => userRoleNames.Contains(r.Role_Name.Trim().ToLower()))
-                .ToList();
-
-            if (!userRoles.Any())
-                return new List<Role>(); // 登录角色在 DB 中找不到，返回空（可加日志检查）
-
-            // 5) 如果用户包含 System Administrator（根是 System Administrator），直接返回所有 Active 角色
-            foreach (var ur in userRoles)
-            {
-                var root = GetRoot(ur);
-                if (root != null && root.Role_Name.Equals("System Administrator", StringComparison.OrdinalIgnoreCase))
-                {
-                    return allRoles
-                        .Where(r => string.Equals(r.Status, "Active", StringComparison.OrdinalIgnoreCase))
-                        .OrderBy(r => r.ParentRoleID ?? r.RoleID) // COALESCE(ParentRoleID, RoleID)
-                       .ThenBy(r => r.ParentRoleID)              // 按 ParentRoleID 排序
-                       .ThenBy(r => r.PriorityIndex)             // 按 PriorityIndex 排序
-                       .ToList();
-
-                }
-            }
-
-            // 6) 收集用户每个角色对应的 rootPriority（可能有多个角色，取每个的 rootPriority 并对每个做允许集合，然后合并）
-            var userRootPriorities = new HashSet<int>();
-            foreach (var ur in userRoles)
-            {
-                var root = GetRoot(ur);
-                if (root != null) userRootPriorities.Add(root.PriorityIndex);
-            }
-
-            // 7) 找出所有 root（ParentRoleID == null）
-            var roots = allRoles.Where(r => !r.ParentRoleID.HasValue).ToList();
-
-            // 8) 对于每个用户根优先级，收集 rootPriority > 用户 rootPriority 的那些 root 下所有角色
-            var allowedRoleIds = new HashSet<int>();
-            foreach (var userRootPriority in userRootPriorities)
-            {
-                var allowedRoots = roots.Where(rt => rt.PriorityIndex > userRootPriority).ToList();
-                foreach (var ar in allowedRoots)
-                {
-                    // 把属于该 allowed root 的所有角色加入（包括 root 本身与其所有后代）
-                    foreach (var role in allRoles)
-                    {
-                        var roleRoot = GetRoot(role);
-                        if (roleRoot != null && roleRoot.RoleID == ar.RoleID)
-                        {
-                            // 只加入 Active 的
-                            if (string.Equals(role.Status, "Active", StringComparison.OrdinalIgnoreCase))
-                                allowedRoleIds.Add(role.RoleID);
-                        }
-                    }
-                }
-            }
-
-            // 9) 最后去掉用户自己所对应的具体角色（如果你不想用户看到自己）
-            foreach (var name in userRoleNames)
-            {
-                var own = allRoles.FirstOrDefault(r => r.Role_Name.Trim().ToLower() == name);
-                if (own != null) allowedRoleIds.Remove(own.RoleID);
-            }
-
-            // 10) 将 id 集合映射回 Role 对象并排序返回
-            var result = allRoles
-               .Where(r => allowedRoleIds.Contains(r.RoleID))
-               .OrderBy(r => r.ParentRoleID ?? r.RoleID) // COALESCE(ParentRoleID, RoleID)
-               .ThenBy(r => r.ParentRoleID)              // 按 ParentRoleID 排序
-               .ThenBy(r => r.PriorityIndex)             // 按 PriorityIndex 排序
-               .ToList();
-
-            return result;
-        }
-
-
-
-
-
 
 
 
@@ -289,9 +174,9 @@ namespace UserManagementlibrary
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
 
-            ClearField();
+            ClearData();
         }
-        private void ClearField()
+        private void ClearData()
         {
 
             txtRemarks.Text = string.Empty;
@@ -439,7 +324,7 @@ namespace UserManagementlibrary
                     UserRepository.InsertUser(newUser);
                     UserRoleRepository.InsertUserRoles(userRoleList);
                     MessageBox.Show("Create User Successfully");
-                    ClearField();
+                    ClearData();
                 }
                 else
                 {
@@ -550,7 +435,7 @@ namespace UserManagementlibrary
                 UserRoleRepository.InsertUserRoles(userRoleList);
                 MessageBox.Show("Update User Successfully");
 
-                ClearField();
+                ClearData();
             }
             catch (Exception ex)
             {

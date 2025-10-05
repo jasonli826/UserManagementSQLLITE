@@ -124,8 +124,8 @@ private void LoadPieChart()
             Title = $"{item.AlarmCode} - {item.Description}", // Legend text
             Values = new ChartValues<int> { item.Count },
             DataLabels = true,
-            LabelPoint = chartPoint => $"{item.AlarmCode}: {chartPoint.Y}"
-            //LabelPoint = chartPoint =>$"{item.AlarmCode}: {chartPoint.Y} ({chartPoint.Participation:P})",
+           // LabelPoint = chartPoint => $"{item.AlarmCode}: {chartPoint.Y}"
+           LabelPoint = chartPoint =>$"{item.AlarmCode}: {chartPoint.Y} ({chartPoint.Participation:P})",
 
         });
     }

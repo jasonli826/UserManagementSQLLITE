@@ -27,3 +27,10 @@ D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementO
 D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\obj\Release\UserMana.59450F08.Up2Date
 D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\obj\Release\UserManagementOnSQLLite.exe
 D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\obj\Release\UserManagementOnSQLLite.pdb
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\LiveCharts.dll
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\LiveCharts.Wpf.dll
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\Xceed.Wpf.Toolkit.dll
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\LiveCharts.pdb
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\LiveCharts.xml
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\LiveCharts.Wpf.pdb
+D:\Project\Projects\MachineGUI\SQLLiteUserManagement\Source Code\UserManagementOnSQLLite\bin\Release\LiveCharts.Wpf.xml

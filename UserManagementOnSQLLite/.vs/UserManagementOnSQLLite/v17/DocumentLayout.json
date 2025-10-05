@@ -3,19 +3,50 @@
   "WorkspaceRootPath": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\alarm.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\alarm.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\dataanalytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\auditlog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\repository\\rolecontrolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolesequencecontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolesequencecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DEC057-0C22-4161-A6C1-52080C1533FB}|UserManagementOnSQLLite.csproj|D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E6DEC057-0C22-4161-A6C1-52080C1533FB}|UserManagementOnSQLLite.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\userauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\roleadministration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -24,42 +55,11 @@
       "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\form\\popupwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\roleadministration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolesequencecontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DEC057-0C22-4161-A6C1-52080C1533FB}|UserManagementOnSQLLite.csproj|D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{E6DEC057-0C22-4161-A6C1-52080C1533FB}|UserManagementOnSQLLite.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\entity\\rolenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\form\\popupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6DEC057-0C22-4161-A6C1-52080C1533FB}|UserManagementOnSQLLite.csproj|D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E6DEC057-0C22-4161-A6C1-52080C1533FB}|UserManagementOnSQLLite.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\userauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolesequencecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\form\\popupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\usercontrol\\rolemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEABE4E-D640-4D46-8E62-926792ABF4EE}|..\\UserManagementLibray\\UserManagementlibrary.csproj|d:\\project\\projects\\machinegui\\sqlliteusermanagement\\source code\\usermanagementlibray\\style\\usercontrolstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,33 +69,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserManagement.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAUwD0AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "UserAuthentication.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserAuthentication.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserAuthentication.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserAuthentication.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserAuthentication.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAArwOwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T08:08:24.805Z",
+              "WhenOpened": "2025-10-03T08:50:19.303Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alarm.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\Alarm.xaml.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\Alarm.xaml.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\Alarm.xaml.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\Alarm.xaml.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAH8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T14:30:00.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RoleControlRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:17:36.108Z",
+              "Title": "AuditLog.xaml",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\AuditLog.xaml",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\AuditLog.xaml",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\AuditLog.xaml",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\AuditLog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-05T14:26:53.204Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alarm.xaml",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\Alarm.xaml",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\Alarm.xaml",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\Alarm.xaml",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\Alarm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-05T14:25:21.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataAnalytics.xaml",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\DataAnalytics.xaml",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\DataAnalytics.xaml",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\DataAnalytics.xaml",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\DataAnalytics.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-05T14:20:55.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleSequenceControl.xaml",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-03T07:38:04.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleSequenceControl.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:40:32.08Z"
             },
             {
               "$type": "Document",
@@ -105,7 +164,7 @@
               "RelativeDocumentMoniker": "..\\UserManagementLibray\\Repository\\RoleRepository.cs",
               "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\RoleRepository.cs",
               "RelativeToolTip": "..\\UserManagementLibray\\Repository\\RoleRepository.cs",
-              "ViewState": "AgIAABkBAAAAAAAAAAAIwFgBAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAANcAAAAAAAAAAAAkwOwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T07:34:25.345Z",
               "EditorCaption": ""
@@ -113,6 +172,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "RoleManagement.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAQwK8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:38:11.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAUwIgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T16:07:38.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleManagement.xaml",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-03T07:58:55.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserManagement.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\UserManagement.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA1wDsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:08:24.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "RoleAdministration.xaml",
               "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleAdministration.xaml",
               "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleAdministration.xaml",
@@ -124,32 +230,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "UserManagement.xaml",
               "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\UserManagement.xaml",
               "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\UserManagement.xaml",
               "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\UserManagement.xaml",
               "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\UserManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T07:38:46.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T07:38:46.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Repository\\UserRepository.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAHsBAAAAAAAAAAAUwIgBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T16:07:38.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Entity\\Role.cs",
               "RelativeDocumentMoniker": "..\\UserManagementLibray\\Entity\\Role.cs",
@@ -157,121 +249,11 @@
               "RelativeToolTip": "..\\UserManagementLibray\\Entity\\Role.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:17:01.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T17:17:01.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PopupWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Form\\PopupWindow.xaml.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Form\\PopupWindow.xaml.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Form\\PopupWindow.xaml.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\Form\\PopupWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T08:54:00.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoleAdministration.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleAdministration.xaml.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleAdministration.xaml.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleAdministration.xaml.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleAdministration.xaml.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAArwFsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T08:07:43.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoleSequenceControl.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T07:40:32.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T09:01:06.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RoleManagement.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwFIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T07:38:11.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoleNode.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Entity\\RoleNode.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Entity\\RoleNode.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Entity\\RoleNode.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\Entity\\RoleNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T09:00:00.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T09:01:04.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserAuthentication.cs",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserAuthentication.cs",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserAuthentication.cs",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserAuthentication.cs",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserAuthentication.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAMwOUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T08:50:19.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoleSequenceControl.xaml",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleSequenceControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T07:38:04.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PopupWindow.xaml",
               "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Form\\PopupWindow.xaml",
               "RelativeDocumentMoniker": "..\\UserManagementLibray\\Form\\PopupWindow.xaml",
@@ -282,25 +264,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RoleManagement.xaml",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
-              "RelativeToolTip": "..\\UserManagementLibray\\UserControl\\RoleManagement.xaml",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T07:58:55.721Z"
+              "WhenOpened": "2025-10-03T09:01:04.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserControlStyles.xaml",
-              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Style\\UserControlStyles.xaml",
-              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Style\\UserControlStyles.xaml",
-              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Style\\UserControlStyles.xaml",
-              "RelativeToolTip": "..\\UserManagementLibray\\Style\\UserControlStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T08:43:17.038Z"
+              "DocumentIndex": 8,
+              "Title": "RoleControlRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
+              "RelativeDocumentMoniker": "..\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
+              "RelativeToolTip": "..\\UserManagementLibray\\Repository\\RoleControlRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:17:36.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Project\\Projects\\MachineGUI\\SQLLiteUserManagement\\Source Code\\UserManagementOnSQLLite\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T09:01:06.63Z"
             }
           ]
         }

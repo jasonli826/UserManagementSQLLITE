@@ -10,11 +10,11 @@ none
 false
 TRACE
 
-9-1439200787
+12364017183
 
-36-652707855
-20511088043
-UserControl\Alarm.xaml;UserControl\AuditLog.xaml;UserControl\ChangePassword.xaml;UserControl\DomainUserControl.xaml;UserControl\RoleAdministration.xaml;UserControl\RoleManagement.xaml;Style\UserControlStyles.xaml;UserControl\UserManagement.xaml;Form\PopupWindow.xaml;
+451798395792
+27-1389861743
+UserControl\Alarm.xaml;UserControl\AuditLog.xaml;UserControl\ChangePassword.xaml;UserControl\DataAnalytics.xaml;UserControl\DomainUserControl.xaml;UserControl\LogUserControl.xaml;UserControl\RoleAdministration.xaml;UserControl\RoleManagement.xaml;Style\UserControlStyles.xaml;UserControl\RoleSequenceControl.xaml;UserControl\UserManagement.xaml;Form\PopupWindow.xaml;
 
 False
 

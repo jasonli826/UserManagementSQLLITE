@@ -249,6 +249,11 @@ namespace UserManagementlibrary
         protected void BtnRolePrioritySequence_Click(object sender, RoutedEventArgs e)
         {
             var RoleSequenceControl = new RoleSequenceControl();
+            RoleSequenceControl.RoleSequenceSaved += (s, args) =>
+            {
+                // Refresh Role Management data when save is clicked in RoleSequenceControl
+                ClearData();
+            };
             UserManagementlibrary.Form.PopupWindow popupWindow = new UserManagementlibrary.Form.PopupWindow(RoleSequenceControl, "RoleSequenceControl");
 
             popupWindow.ShowDialog();

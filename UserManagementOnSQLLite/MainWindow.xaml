@@ -24,7 +24,7 @@
                 <MenuItem Header="Change Password" Style="{StaticResource SubMenuItemStyle}" Click="MenuChangePassword_Click"/>
             </MenuItem>
             <MenuItem Header="Data Analytics" Style="{StaticResource ParentMenuItemStyle}" Click="MenuDataAnalytics_Click"/>
-            <MenuItem Header="Log" Style="{StaticResource ParentMenuItemStyle}" Click="MenuLog_Click"/>
+            <MenuItem Header="Log" Style="{StaticResource ParentMenuItemStyle}" Click="MenuLog_Click" Visibility="Collapsed"/>
             <MenuItem Header="Alarm" Style="{StaticResource ParentMenuItemStyle}" Click="MenuAlarm_Click"/>
             <MenuItem Header="Audit Log" Style="{StaticResource ParentMenuItemStyle}" Click="MenuAuditLog_Click"/>
             <MenuItem Header="Logout" Style="{StaticResource ParentMenuItemStyle}" Click="MenuLogout_Click"/>

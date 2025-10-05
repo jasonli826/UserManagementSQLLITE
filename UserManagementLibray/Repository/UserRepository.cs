@@ -283,12 +283,12 @@ namespace UserManagementlibrary.Repository
             }
         }
 
-        private static List<Role> FilterRolesByUserRole(string userRole, List<Role> allRoles)
+        public static List<Role> FilterRolesByUserRole(string userRole, List<Role> allRoles)
         {
             if (string.IsNullOrWhiteSpace(userRole) || allRoles == null || allRoles.Count == 0)
                 return new List<Role>();
 
-            // 1) 把用户可能拥有的角色名规范化为小写集合
+            // 1) Normalize the user’s role names to lowercase and put them in a HashSet
             var userRoleNames = userRole
                 .Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(x => x.Trim().ToLower())
@@ -297,10 +297,10 @@ namespace UserManagementlibrary.Repository
             if (!userRoleNames.Any())
                 return new List<Role>();
 
-            // 2) 构建按 ID 的字典，便于上溯查 root
+            // 2) Build a dictionary by RoleID for quick lookup
             var byId = allRoles.ToDictionary(r => r.RoleID);
 
-            // 3) 根据 RoleID 缓存 root 计算（避免重复遍历）
+            // 3) Cache each role’s root (top-level parent) to avoid repeated traversal
             var rootCache = new Dictionary<int, Role>();
 
             Role GetRoot(Role r)
@@ -309,7 +309,7 @@ namespace UserManagementlibrary.Repository
                 if (rootCache.TryGetValue(r.RoleID, out var cached)) return cached;
 
                 var cur = r;
-                // 上溯直到 ParentRoleID 为 null 或找不到父
+                // Go up the tree until the role has no parent
                 while (cur.ParentRoleID.HasValue && byId.TryGetValue(cur.ParentRoleID.Value, out var parent))
                 {
                     cur = parent;
@@ -319,29 +319,29 @@ namespace UserManagementlibrary.Repository
                 return cur;
             }
 
-            // 4) 找到用户在 DB 中对应的角色对象
+            // 4) Find the user’s role objects in the database (matching by name)
             var userRoles = allRoles
                 .Where(r => userRoleNames.Contains(r.Role_Name.Trim().ToLower()))
                 .ToList();
 
             if (!userRoles.Any())
-                return new List<Role>(); // 登录角色在 DB 中找不到，返回空（可加日志检查）
+                return new List<Role>(); // No matching role found for this user
 
-            // 5) 如果用户包含 System Administrator（根是 System Administrator），直接返回所有 Active 角色
+            // 5) If the user is (or belongs under) "System Administrator", return all roles
             foreach (var ur in userRoles)
             {
                 var root = GetRoot(ur);
                 if (root != null && root.Role_Name.Equals("System Administrator", StringComparison.OrdinalIgnoreCase))
                 {
                     return allRoles
-                        .Where(r => string.Equals(r.Status, "Active", StringComparison.OrdinalIgnoreCase))
+                        //.Where(r => string.Equals(r.Status, "Active", StringComparison.OrdinalIgnoreCase))
                         .OrderBy(r => r.PriorityIndex)
                         .ThenBy(r => r.Role_Name)
                         .ToList();
                 }
             }
 
-            // 6) 收集用户每个角色对应的 rootPriority（可能有多个角色，取每个的 rootPriority 并对每个做允许集合，然后合并）
+            // 6) Collect the priority index of each user's root (could have multiple roles)
             var userRootPriorities = new HashSet<int>();
             foreach (var ur in userRoles)
             {
@@ -349,38 +349,39 @@ namespace UserManagementlibrary.Repository
                 if (root != null) userRootPriorities.Add(root.PriorityIndex);
             }
 
-            // 7) 找出所有 root（ParentRoleID == null）
+            // 7) Find all root-level roles (ParentRoleID == null)
             var roots = allRoles.Where(r => !r.ParentRoleID.HasValue).ToList();
 
-            // 8) 对于每个用户根优先级，收集 rootPriority > 用户 rootPriority 的那些 root 下所有角色
+            // 8) For each user root, collect all roots with a *higher* priority index,
+            //    and include all their descendant roles (the user can only see lower levels)
             var allowedRoleIds = new HashSet<int>();
             foreach (var userRootPriority in userRootPriorities)
             {
                 var allowedRoots = roots.Where(rt => rt.PriorityIndex > userRootPriority).ToList();
                 foreach (var ar in allowedRoots)
                 {
-                    // 把属于该 allowed root 的所有角色加入（包括 root 本身与其所有后代）
+                    // Add all roles that belong to these allowed roots
                     foreach (var role in allRoles)
                     {
                         var roleRoot = GetRoot(role);
                         if (roleRoot != null && roleRoot.RoleID == ar.RoleID)
                         {
-                            // 只加入 Active 的
-                            if (string.Equals(role.Status, "Active", StringComparison.OrdinalIgnoreCase))
-                                allowedRoleIds.Add(role.RoleID);
+                            // Only include Active roles if needed
+                            // if (string.Equals(role.Status, "Active", StringComparison.OrdinalIgnoreCase))
+                            allowedRoleIds.Add(role.RoleID);
                         }
                     }
                 }
             }
 
-            // 9) 最后去掉用户自己所对应的具体角色（如果你不想用户看到自己）
+            // 9) Optionally, remove the user’s own roles from the allowed list
             foreach (var name in userRoleNames)
             {
                 var own = allRoles.FirstOrDefault(r => r.Role_Name.Trim().ToLower() == name);
                 if (own != null) allowedRoleIds.Remove(own.RoleID);
             }
 
-            // 10) 将 id 集合映射回 Role 对象并排序返回
+            // 10) Map the allowed IDs back to Role objects and sort the result
             var result = allRoles
                 .Where(r => allowedRoleIds.Contains(r.RoleID))
                 .OrderBy(r => r.PriorityIndex)
@@ -389,6 +390,7 @@ namespace UserManagementlibrary.Repository
 
             return result;
         }
+
         public static List<User> GetAllUser(string currentUserRole, List<Role> allRoles,string currentUserId)
         {
             var list = new List<User>();

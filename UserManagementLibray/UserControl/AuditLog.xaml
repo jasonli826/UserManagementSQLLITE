@@ -2,6 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:helpers="clr-namespace:UserManagementLibray.Helpers"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              Background="#F3F6FB"
              Loaded="UserControl_Loaded">
 
@@ -40,10 +42,7 @@
                 <!-- Date Filter -->
                 <StackPanel Width="180">
                     <TextBlock Text="Select Date" VerticalAlignment="Center" Foreground="{StaticResource PrimaryColor}" FontWeight="Bold"/>
-                    <DatePicker x:Name="dpLogDate"
-                                SelectedDateFormat="Short"
-                                SelectedDateChanged="DpLogDate_SelectedDateChanged"
-                                Loaded="DpLogDate_Loaded"/>
+                    <DatePicker x:Name="dpLogDate" SelectedDateFormat="Short" SelectedDateChanged="DpLogDate_SelectedDateChanged" Loaded="DpLogDate_Loaded" DisplayDateEnd="{x:Static sys:DateTime.Today}"/>
                 </StackPanel>
 
                 <!-- Keyword Filter -->

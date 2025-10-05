@@ -51,7 +51,8 @@ namespace UserManagementlibrary
 
                 InitializeParentMenuButtons();
                 roleList = RoleRepository.GetActiveRoleBasedOnSequence() ?? new List<Role>();
-                cmbRole.ItemsSource = roleList;
+                if(roleList.Count>0)
+                cmbRole.ItemsSource = roleList.Where(x=>x.Status.ToUpper()=="ACTIVE");
                 if (roleList.Count > 0) cmbRole.SelectedIndex = 0;
 
                 cmbRole.SelectionChanged += CmbRole_SelectionChanged;

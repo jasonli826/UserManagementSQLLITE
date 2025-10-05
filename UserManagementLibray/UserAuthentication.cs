@@ -234,7 +234,7 @@ namespace UserManagementlibrary
             {
                 AuditDate = DateTime.Now,
                 UserName = SessionContext.UserId,
-                Detail = "User logged out",
+                Detail = "Logged Out",
                 Created_by = SessionContext.UserId,
                 Created_Date= DateTime.Now,
                 Updated_by = SessionContext.UserId,

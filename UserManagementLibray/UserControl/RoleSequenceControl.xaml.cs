@@ -16,7 +16,7 @@ namespace UserManagementLibray
         private Point _startPoint;
         private RoleNode _selectedNode;
         private List<RoleNode> _roleTree;
-
+        public event EventHandler RoleSequenceSaved;
         public RoleSequenceControl()
         {
             InitializeComponent();
@@ -110,6 +110,7 @@ namespace UserManagementLibray
         {
             SaveTreeToDatabase(_roleTree);
             MessageBox.Show("Changes saved successfully.", "Save", MessageBoxButton.OK, MessageBoxImage.Information);
+            RoleSequenceSaved?.Invoke(this, EventArgs.Empty);
         }
 
         private void SaveTreeToDatabase(List<RoleNode> nodes, int? parentId = null)
